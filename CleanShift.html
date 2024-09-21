@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleanShift</title>
+    <link rel="stylesheet" href="css-cleanshift.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">CleanShift</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-button">Get Started</button>
+        </nav>
+    </header>
 
-<h1>CleanShift</h1>
-<p>A Clean and Shifting service company</p>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to CleanShift</h1>
+            <p>Your go-to solution for clean and efficient workspaces.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+    </section>
 
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>CleanShift is dedicated to providing top-notch cleaning services to ensure a spotless and healthy environment for your office or home.</p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Office Cleaning</h3>
+            <p>Professional cleaning services for your office space.</p>
+        </div>
+        <div class="service">
+            <h3>Home Cleaning</h3>
+            <p>Comprehensive cleaning solutions for your home.</p>
+        </div>
+        <div class="service">
+            <h3>Specialized Cleaning</h3>
+            <p>Custom cleaning services tailored to your needs.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CleanShift. All rights reserved.</p>
+    </footer>
 </body>
 </html>
