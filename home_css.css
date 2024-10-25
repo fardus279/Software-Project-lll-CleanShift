@@ -89,10 +89,24 @@ header.shadow .logo{
     cursor:pointer
 
 }
+.nav ul a{
+    color:#000;
+   
+
+}
+.nav ul a:hover{
+    color:var(--second-color);
+   
+
+}
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--bg-color);
+}
+.logo_clean{
+
+    color: #000;
 }
 
 .logo span{
