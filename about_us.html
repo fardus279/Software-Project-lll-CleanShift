@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="about_css.css">
     <link rel="stylesheet" href="home_css.css">
     <!-- Include jQuery library -->
@@ -12,14 +13,15 @@
 <body>
     <header>
         <div class="nav container">
-            <a href="http://127.0.0.1:5500/home.html" class="logo logo_clean" >Clean <span>Shift</span></a>
+            <a href="home.html" class="logo logo_clean" >Clean <span>Shift</span></a>
 
     <ul> 
-        <a href="http://127.0.0.1:5500/cleaning_service.html" class="service" style="color:black;">Services</a>
-    <p>Blog</p>
-    <p>About</p> 
-    <p>Contact us</p></ul>
-    <a href="http://127.0.0.1:5500/signup.html" class="signUp">SignUp</a>
+        <a href="cleaning_service.html" class="service" style="color:black;">Services</a>
+        <a href="home.html">Blog</a>
+        <a href="about_us.html">About</a> 
+        <a href="#contact-popup">Contact us</a>
+    </ul>
+    <a href="signup.html" class="signUp">SignUp</a>
 
 
     </div>
@@ -51,8 +53,8 @@
                 </div>
                 <div class="team-member">
                     <img src="images/tanim.png" alt="Team Member 3">
-                    <h3>Md Tanim Hasan</h3>
-                    <p>Lead Cleaner</p>
+                    <h3 style="color: blue;">Md Tanim Hasan</h3>
+                    <p>Software Developer</p>
                 </div>
                 <div class="team-member">
                     <img src="images/sourov.jpg" alt="Team Member 4">
@@ -126,6 +128,27 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- Contact Us Popup -->
+<div id="contact-popup" class="popup">
+    <div class="popup-content">
+        <a href="#" class="close-btn">&times;</a>
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Include custom JavaScript file -->

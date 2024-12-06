@@ -39,6 +39,7 @@ section{
 }
 
 .container{
+    padding-left: 1rem;
     max-width: 1068px;
     margin: auto;
     width: 100%;
@@ -90,19 +91,21 @@ header.shadow .logo{
 
 }
 .nav ul a{
+    padding-left: 1rem;
     color:#000;
    
 
 }
 .nav ul a:hover{
     color:var(--second-color);
-   
+
 
 }
+
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--bg-color);
+    color: black;
 }
 .logo_clean{
 
@@ -135,14 +138,7 @@ header.shadow .logo{
     transition: .5s;
 }
 
-.home{
-    width: 100%;
-    min-height: 400px;
-    background: url("images/Back.png");
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .home-text{
     color: var(--bg-color);

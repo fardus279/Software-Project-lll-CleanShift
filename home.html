@@ -9,30 +9,24 @@
     <title>Home</title>
     <!-- Box-icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="home_css.css">
 </head>
 <body>
     <header>
         <div class="nav container">
-            <a href="#" class="logo">Clean <span>Shift</span></a>
+            <a href="#" class="logo"> Clean <span>Shift</span></a>
 
     <ul> 
-        <a href="http://127.0.0.1:5500/cleaning_service.html" class="service">Services</a>
-    <p>Blog</p>
-    <a href="http://127.0.0.1:5500/about_us.html">About</a> 
-    <p>Contact us</p></ul>
-    <a href="http://127.0.0.1:5500/signup.html" class="signUp">SignUp</a>
+        <a href="cleaning_service.html" class="service">Services</a>
+        <a href="home.html">Blog</a>
+        <a href="about_us.html">About</a> 
+        <a href="#contact-popup">Contact us</a>
+    </ul>
+        <a href="signup.html" class="signUp">SignUp</a>
     </div>
     </div>
     </header>
-
-
-    <section class="home" id="home">
-        <!-- <div class="home-text container">
-            <h2 class="home-title" style="color: #065e1b;">CleanShift</h2>
-            <span class="home-subtitle" style="color: #000000; ">A cleaning and shifting service company</span>
-        </div> -->
-    </section>
 
     <section class="about container" id="about">
         <div class="contentBx">
@@ -61,7 +55,7 @@
         <div class="post-box tech">
             <img src="images/cleaning home.png" alt="" class="post-img">
             <h2 class="category">Cleaning</h2>
-            <a href="#" class="post-title">How to clean clean homes in best way</a>
+            <a href="" class="post-title">How to clean clean homes in best way</a>
             <span class="post-date">24 SEP 2024</span>
             <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
             <div class="profile">
@@ -166,6 +160,7 @@
             </div>
         </div>
     </div>
+    
 
 
 
@@ -205,6 +200,30 @@
             </div>
         </div>
     </footer>
+
+
+
+<!-- Contact Us Popup -->
+<div id="contact-popup" class="popup">
+    <div class="popup-content">
+        <a href="#" class="close-btn">&times;</a>
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
